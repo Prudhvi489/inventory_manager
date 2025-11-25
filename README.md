@@ -72,7 +72,7 @@ inventoryManager/
 
 1. **Clone or extract the project**
    ```bash
-   cd inventoryManager
+   cd inventory_manager
    ```
 
 2. **Install dependencies**
