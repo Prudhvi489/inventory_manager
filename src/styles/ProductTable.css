@@ -1,0 +1,99 @@
+.product-table-container {
+    overflow-x: auto;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    color: #334155;
+}
+
+.product-table th {
+    background: #f8fafc;
+    padding: 16px 24px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #e2e8f0;
+    white-space: nowrap;
+}
+
+.product-table td {
+    padding: 20px 24px;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 0.95rem;
+    color: #1e293b;
+    vertical-align: middle;
+}
+
+.product-table tr:last-child td {
+    border-bottom: none;
+}
+
+.product-table tr {
+    transition: background-color 0.2s;
+}
+
+.product-table tr:hover {
+    background-color: #f8fafc;
+}
+
+.table-row-even {
+    background-color: #ffffff;
+}
+
+.table-row-odd {
+    background-color: #ffffff;
+}
+
+.status-badge {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+    border-radius: 9999px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: inline-block;
+}
+
+.status-badge.active {
+    background: #dcfce7;
+    color: #15803d;
+    border: 1px solid #bbf7d0;
+}
+
+.status-badge.inactive {
+    background: #fee2e2;
+    color: #b91c1c;
+    border: 1px solid #fecaca;
+}
+
+.edit-btn {
+    border: none;
+    border-radius: 6px;
+    background: #eff6ff;
+    color: #3b82f6;
+    font-size: 0.875rem;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.edit-btn:hover {
+    background: #3b82f6;
+    color: white;
+}
